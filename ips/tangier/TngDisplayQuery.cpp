@@ -86,7 +86,7 @@ bool DisplayQuery::forceFbScaling(int device)
 #else
 bool DisplayQuery::forceFbScaling(int)
 {
-    return false;
+    return true;
 }
 #endif
 
